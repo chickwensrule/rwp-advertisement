@@ -1,9 +1,22 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(220, 220, 220);
+    color: white;
+    background-color: rgb(20, 20, 20);
 
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-weight: 700;
+    /* margin: 40px; */
+    margin: 0;
+    background-color: rgb(40, 40, 40);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
 }
 
 /* NAV BAR */
@@ -15,21 +28,28 @@ nav {
     top: 0;
     width: 100%;
 
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     align-content: center;
     color: rgb(220, 220, 220);
 }
 
 nav ul {
-    display: flex;
-    float: right;
-
+    /* display: flex; */
+    padding: 2px;
     margin: 0;
 }
 
 nav li {
+
+    float: right;
     display: inline;
     padding: 16px 12px;
+}
+
+#title {
+    float: left;
+    font-weight: 900;
+    /* font-size: large; */
 }
 
 .nav-button a {
@@ -41,11 +61,45 @@ nav li {
 }
 
 .nav-button:hover {
-    background-color: rgb(20, 80, 20);
+    background-color: rgb(8, 75, 151);
 }
 
 /* HOME */
 
-#home {
-    background-color: gray;
+#center-large-text {
+    text-align: center;
+    padding: 200px;
+
+    font-weight: 900;
+    font-size: 58px;
 }
+
+#home {
+    /* background-color: rgb(30,30,30); */
+    /* color: white; */
+}
+
+/* FEATURES */
+
+#features {
+    /* background-color: rgb(50, 50, 50); */
+    /* padding: 10px; */
+}
+
+.feature-box {
+    /* margin: 20px; */
+    padding: 20px;
+    /* border-radius: 10px; */
+    background-color: rgb(20, 20, 20);
+    display: flex;
+
+    /* margin: auto; */
+}
+
+.feature-box div {
+    float: left;
+}
+
+/* #home h2 {
+    font-weight: 800;
+} */
