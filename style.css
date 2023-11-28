@@ -1,7 +1,7 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: rgb(20, 20, 20);
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: rgb(20, 20, 20);
+    background-color: rgb(250, 250, 250);
 
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ h2 {
     font-weight: 700;
     /* margin: 40px; */
     margin: 0;
-    background-color: rgb(40, 40, 40);
+    /* background-color: rgb(40, 40, 40); */
 }
 
 h3 {
@@ -28,53 +28,84 @@ nav {
     top: 0;
     width: 100%;
 
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
     align-content: center;
-    color: rgb(220, 220, 220);
+    /* color: rgb(220, 220, 220); */
 }
 
 nav ul {
     /* display: flex; */
     padding: 2px;
     margin: 0;
+    padding: 0;
 }
 
 nav li {
-
     float: right;
     display: inline;
-    padding: 16px 12px;
+    padding: 16px 14px;
+    margin: 0;
 }
 
 #title {
     float: left;
     font-weight: 900;
     /* font-size: large; */
+
+    /* background-image: linear-gradient(45deg, rgb(78, 186, 78), rgb(139, 124, 198)); */
+    /* -webkit-background-clip: text; for WebKit/Blink browsers like Chrome and Safari */
+    /* background-clip: text; */
+    /* color: transparent; */
 }
 
 .nav-button a {
     text-align: center;
     text-decoration: none;
-    color: rgb(220, 220, 220);
+    color: rgb(50, 50, 50);
 
     font-weight: bold;
 }
 
 .nav-button:hover {
-    background-color: rgb(8, 75, 151);
+    background-color: rgb(220, 220, 220);
 }
 
 /* HOME */
 
 #center-large-text {
     text-align: center;
-    padding: 200px;
+    padding: 250px;
 
     font-weight: 900;
     font-size: 58px;
 }
 
+#grandma {
+    display: flex;
+}
+
+#grandma div {
+    margin: 20px;
+}
+
+#center-medium-text {
+    /* float: left; */
+    text-align: center;
+    padding: 200px;
+
+    font-weight: 900;
+    font-size: 32px;
+}
+
+#colored {
+    background-image: linear-gradient(45deg, rgb(78, 186, 78), rgb(139, 124, 198));
+    -webkit-background-clip: text; /* for WebKit/Blink browsers like Chrome and Safari */
+    background-clip: text;
+    color: transparent;
+}
+
 #home {
+    margin: 40px;
     /* background-color: rgb(30,30,30); */
     /* color: white; */
 }
@@ -103,3 +134,22 @@ nav li {
 /* #home h2 {
     font-weight: 800;
 } */
+
+.premium {
+    /* fix color */
+    /* color: green; */
+    /* font-size: 72px; */
+    /* color: linear-gradient(45deg, #f3ec78, #af4261);  */
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text; /* for WebKit/Blink browsers like Chrome and Safari */
+    background-clip: text;
+    color: transparent;
+    /* width: 100px;
+    height: 100px;
+    color: linear-gradient(45deg, #f3ec78, #af4261); */
+    /* dooo */
+    /* color: ; */
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
