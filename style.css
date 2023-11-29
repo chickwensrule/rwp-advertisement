@@ -30,7 +30,7 @@ nav {
 
     background-color: rgb(240, 240, 240);
     align-content: center;
-    /* color: rgb(220, 220, 220); */
+    z-index: 1000;
 }
 
 nav ul {
@@ -137,22 +137,6 @@ nav li {
     padding: 40px;
 }
 
-.list {
-    display: flex;
-}
-
-.list div {
-    background: rgb(240, 240, 240);
-    border-radius: 20px;
-    margin: 20px;
-    padding: 20px;
-}
-
-.list div:hover {
-    background: rgb(230, 230, 230);
-    scale: 101%;
-}
-
 /* #home h2 {
     font-weight: 800;
 } */
@@ -189,4 +173,20 @@ nav li {
     /* background: -webkit-linear-gradient(#eee, #333); */
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
+}
+
+.list {
+    display: flex;
+}
+
+.testimonial, .stick-price, .plan-price {
+    background: rgb(240, 240, 240);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.testimonial:hover, .stick-price:hover, .plan-price:hover {
+    background: rgb(230, 230, 230);
+    scale: 101%;
 }
