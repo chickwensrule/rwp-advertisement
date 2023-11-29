@@ -129,6 +129,7 @@ nav li {
 
 .feature-box div {
     float: left;
+    margin: 20px;
 }
 
 /* PRICING */
@@ -144,6 +145,7 @@ nav li {
 /* LEGAL */
 #legal {
     padding: 20px;
+    background-color: rgb(245, 245, 245);
 }
 
 #legal h2 {
